@@ -4,9 +4,9 @@ A Promise is a proxy for a value not necessarily known when the promise is creat
 
 A Promise is in one of these states:
 
--> pending: initial state, neither fulfilled nor rejected.
--> fulfilled: meaning that the operation was completed successfully.
--> rejected: meaning that the operation failed.
+- pending: initial state, neither fulfilled nor rejected.
+- fulfilled: meaning that the operation was completed successfully.
+- rejected: meaning that the operation failed.
 
 ![promises](https://github.com/teles1g/promises/blob/main/promises.png)
 
