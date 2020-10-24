@@ -20,10 +20,10 @@ class PromiseController {
 
     promise
       .catch(error => {
-        return res.json(error);
+        return res.status(400).json(error);
       })
       .then(data => {
-        return res.json(data);
+        return res.status(200).json(data);
       });
   }
 }
