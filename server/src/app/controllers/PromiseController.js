@@ -18,7 +18,7 @@ class PromiseController {
 
     const promise = Promise.all([user, product]);
 
-    promise
+    return promise
       .catch(error => {
         return res.status(400).json(error);
       })
